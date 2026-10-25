@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "GridPulse API",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["gridpulse.main:app", "--port", "8000"],
+      "justMyCode": true
+    }
+  ]
+}
